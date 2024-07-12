@@ -19,7 +19,6 @@ The projects in this repository cover a range of topics and provide hands-on exp
 
 1. **Clock Project**
    - Displays the current time with hour, minute, and second hands.
-   - Includes small lines between hour marks for a detailed appearance.
    - Uses HTML, CSS, and JavaScript.
 
 2. **Calculator**
