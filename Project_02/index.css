@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  
+  font-family: sans-serif;
+
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right bottom, #043f96, #0b8d43);
+  color: white;
+}
+.container{
+  border: 2px solid rgb(255, 233, 233);
+  border-radius: 8px;
+  margin: 2px;
+  padding:30px;
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+ 
+}
+.container h1{
+font-size: 1.5rem; 
+}
+.inputBox{
+  position: relative;
+}
+.inputBox span{
+ position: absolute;
+ top: 16px;
+ right: 10px;
+ cursor: pointer;
+}
+.inputBox span:hover{
+ color: black;
+}
+.passBox{
+  border-radius: 8px;
+  border: 2px solid white ;
+  background: linear-gradient(to right bottom, #043f96, #0b8d43);
+  width: 230px;
+  height: 25px;
+  color: #faf7f7;
+  outline: none;
+  margin-block: 5px;
+  padding: 8px;
+  font-size: 20px;
+
+} 
+.row{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+.row:hover{
+  color: black;
+  font-style: italic;
+}
+.btn{
+  margin-top: 15px;
+  border-radius: 5px;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  padding: 5px;
+  cursor: pointer; 
+}
+.btn:hover{
+  color: black;
+  border: 2px solid rgb(10, 10, 10);
+  font-style:italic;
+  font-size: 15px;
+}
