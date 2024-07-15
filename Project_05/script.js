@@ -10,10 +10,10 @@ const addtodo = () => {
 
   }
   const li = document.createElement('li')
-  const p = document.createElement('p')
+  const p = document.createElement('pt')
  
-  p.innerHTML = inputText
-  li.appendChild(p)
+  pt.innerHTML = inputText
+  li.appendChild(pt)
 
  const deleteBtn = document.createElement("button")  
   deleteBtn.innerText = "Remove"
