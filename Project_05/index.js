@@ -23,7 +23,7 @@ const addTodo = () =>{
   todoList.appendChild(li)
   inputBox.value = ""
 }
-const updateTodo=(e) =>{
+const updateTodo=(e) => {
   if(e.target.innerHTML === "Remove"){
     todoList.removeChild(e.target.parentElement)
   }
